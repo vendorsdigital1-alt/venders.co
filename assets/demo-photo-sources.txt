@@ -1,0 +1,30 @@
+The photographs below were found through Openverse searches filtered for CC0 1.0 and downloaded to local demo assets. They are used as visual references for fictional sample businesses; they do not establish any sample listing, product, venue, vehicle or location as real. CC0 1.0 does not require attribution; source links are retained here for provenance.
+
+WIZARD MOTORS
+- demos/wizard-motors/assets/cyan-car.jpg — "Vintage cyan car parked street", Rawpixel, https://www.rawpixel.com/image/3286816/free-photo-image-car-street-city — CC0 1.0.
+- demos/wizard-motors/assets/road-car.jpg — "Free car driving road", Rawpixel, https://www.rawpixel.com/image/5913544/image-light-public-domain-logo — CC0 1.0.
+- demos/wizard-motors/assets/mirror-car.jpg — "Car side view mirror", Rawpixel, https://www.rawpixel.com/image/3305587/free-photo-image-mirror-night-light-automobile — CC0 1.0.
+- demos/wizard-motors/assets/green-sport.webp — "green sports car", Wallboat, https://www.flickr.com/photos/151415985@N06/36191749930 — CC0 1.0 (retained asset, not used because a manufacturer badge is visible).
+- demos/wizard-motors/assets/white-sport.webp — "White sports car and truck on highway", D Coetzee, https://www.flickr.com/photos/29507259@N02/5712027361 — CC0 1.0 (retained asset, not used because manufacturer marks are visible).
+- demos/wizard-motors/assets/red-sport.webp — "Desire is a red sports car", Wonderlane, https://www.flickr.com/photos/71401718@N00/4501275684 — CC0 1.0 (retained asset, not used because a manufacturer mark is visible).
+
+FORM / 01
+- demos/form-01/assets/portrait-mark.jpg — "Márk", brenkee, https://www.flickr.com/photos/55128416@N05/25880374883 — CC0 1.0.
+- demos/form-01/assets/autumn-campaign.jpg — "Autumn Girl", jonas.svidras, https://www.flickr.com/photos/140330936@N02/40961572442 — CC0 1.0.
+- demos/form-01/assets/summer-campaign.jpg — "Summer Girl", jonas.svidras, https://www.flickr.com/photos/140330936@N02/40807877071 — CC0 1.0.
+- demos/form-01/assets/sneaker-detail.webp — "Sneaker shoes, fashion streetwear", Rawpixel, https://www.rawpixel.com/image/6031549/photo-image-public-domain-fashion-free — CC0 1.0.
+- demos/form-01/assets/street-bag.jpg — "Stylish rattan handbags on the balinese street in Ubud", Artem Beliaikin, https://www.flickr.com/photos/157635012@N07/28634261097 — CC0 1.0.
+
+HAVEN PROPERTY GROUP
+- demos/haven-property-group/assets/villa.webp — "Modern villa, real estate", Rawpixel, https://www.rawpixel.com/image/6043060/photo-image-public-domain-plant-house — CC0 1.0.
+- demos/haven-property-group/assets/home-interior-1.webp — "Modern house interior", Rawpixel, https://www.rawpixel.com/image/9676690/modern-house-interior — CC0 1.0.
+- demos/haven-property-group/assets/home-interior-2.webp — "Modern house interior", Rawpixel, https://www.rawpixel.com/image/9676541/modern-house-interior — CC0 1.0.
+- demos/haven-property-group/assets/home-interior-3.webp — "Modern house interior", Rawpixel, https://www.rawpixel.com/image/9676552/modern-house-interior — CC0 1.0.
+- demos/haven-property-group/assets/facade.jpg — "House facade in sun-light of Spring", Amsterdam free photos & pictures of the Dutch city, https://www.flickr.com/photos/104736837@N03/10983694273 — CC0 1.0.
+
+KALAHARI HOUSE
+- demos/kalahari-house/assets/pool-deck.jpg — "We Kebi Safari Lodge", www.wbayer.com, https://www.flickr.com/photos/76319087@N08/39777032705 — CC0 1.0.
+- demos/kalahari-house/assets/desert-evening.jpg — "We Kebi Safari Lodge", www.wbayer.com, https://www.flickr.com/photos/76319087@N08/38861621210 — CC0 1.0.
+- demos/kalahari-house/assets/suite-exterior.jpg — "We Kebi Safari Lodge", www.wbayer.com, https://www.flickr.com/photos/76319087@N08/40630041082 — CC0 1.0.
+
+Image-source caveat: the licensed photographs are documentary or illustrative references, not images commissioned for the fictional concepts. The adjacent page copy identifies them as references where that distinction matters.

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FORM / 01 is a fictional independent fashion label and demonstration storefront.">
+  <title>FORM / 01 — Wear Your Own Direction</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="concept-bar"><span>FORM / 01 — FICTIONAL LABEL, REAL E-COMMERCE CONCEPT</span><a href="../../designs.html">VENDERS.CO ↗</a></div>
+  <header class="header">
+    <a class="wordmark" href="#home">FORM<span>/</span>01</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">+</span></button>
+    <nav id="site-nav" aria-label="Main navigation"><a href="#collection">New collection</a><a href="#story">The point of view</a><a href="#info">Info</a><button class="bag-button" type="button" data-open-bag>Bag <span id="bag-count">0</span></button></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-image"><img src="assets/portrait-mark.jpg" alt="Model in a simple streetwear look beside an urban waterfront"><span>DROP 01 / IN GOOD FORM</span></div>
+      <div class="hero-copy"><p class="eyebrow">A UNIFORM FOR YOUR OWN DIRECTION</p><h1>Less noise.<br><em>More you.</em></h1><p>Independent everyday pieces with a little room to move. A considered edit, built for repeat wear and the way you actually live.</p><a class="button" href="#collection">Shop the edit <span>↘</span></a><small>Fictional label · sample catalogue · no real stock</small></div>
+      <div class="hero-mark" aria-hidden="true">F / 01</div>
+    </section>
+
+    <section class="ticker" aria-label="Form 01 collection message"><span>MADE FOR REPEAT</span><b>·</b><span>WORN YOUR WAY</span><b>·</b><span>NOT HERE TO SHOUT</span><b>·</b><span>MADE FOR REPEAT</span></section>
+
+    <section class="collection" id="collection">
+      <div class="collection-heading"><div><p class="eyebrow">The first form / 01</p><h2>Pieces with<br><em>somewhere to go.</em></h2></div><p>Every item, image and price is fictional. Product photography is illustrative reference imagery and may not depict the exact sample garment.</p></div>
+      <div class="shop-tools"><span>THE CURRENT EDIT / 04 PIECES</span><label>Sort<select id="sort-products"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></label></div>
+      <div class="product-grid" id="product-grid">
+        <article class="product" data-product data-id="drift-hoodie" data-name="Drift heavyweight hoodie" data-price="890" data-image="assets/portrait-mark.jpg">
+          <figure class="product-photo"><img src="assets/portrait-mark.jpg" alt="Streetwear campaign reference showing a model in a hoodie"><span>01 / THE DAILY</span></figure>
+          <p class="product-category">CORE / UNISEX</p><h3>Drift heavyweight hoodie</h3><div class="product-price"><span>R890</span><span>ILLUSTRATIVE</span></div>
+          <div class="variants"><label>Size<select data-size required><option value="">Choose size</option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option></select></label><label>Colour<select data-colour><option>Ink</option><option>Stone</option><option>Signal blue</option></select></label></div>
+          <button class="add-button" type="button" data-add>Add to bag <span>＋</span></button>
+        </article>
+        <article class="product" data-product data-id="soft-form-tee" data-name="Soft form tee" data-price="420" data-image="assets/summer-campaign.jpg">
+          <figure class="product-photo portrait-photo"><img src="assets/summer-campaign.jpg" alt="Fashion portrait reference for the Soft form tee"><span>02 / THE LAYER</span></figure>
+          <p class="product-category">LIGHTWEIGHT / UNISEX</p><h3>Soft form tee</h3><div class="product-price"><span>R420</span><span>ILLUSTRATIVE</span></div>
+          <div class="variants"><label>Size<select data-size required><option value="">Choose size</option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option></select></label><label>Colour<select data-colour><option>Off-white</option><option>Black</option><option>Oxide</option></select></label></div>
+          <button class="add-button" type="button" data-add>Add to bag <span>＋</span></button>
+        </article>
+        <article class="product" data-product data-id="step-runner" data-name="Step canvas runner" data-price="760" data-image="assets/sneaker-detail.webp">
+          <figure class="product-photo shoe-photo"><img src="assets/sneaker-detail.webp" alt="Monochrome close-up of a canvas sneaker sole"><span>03 / MOVE THROUGH</span></figure>
+          <p class="product-category">FOOTWEAR / UNISEX</p><h3>Step canvas runner</h3><div class="product-price"><span>R760</span><span>ILLUSTRATIVE</span></div>
+          <div class="variants"><label>Size<select data-size required><option value="">Choose size</option><option>EU 37</option><option>EU 39</option><option>EU 41</option><option>EU 43</option><option>EU 45</option></select></label><label>Colour<select data-colour><option>Black / chalk</option><option>Natural</option></select></label></div>
+          <button class="add-button" type="button" data-add>Add to bag <span>＋</span></button>
+        </article>
+        <article class="product" data-product data-id="wayfinder-bag" data-name="Wayfinder woven bag" data-price="590" data-image="assets/street-bag.jpg">
+          <figure class="product-photo bag-photo"><img src="assets/street-bag.jpg" alt="Woven bags displayed on a street market stall"><span>04 / CARRY IT LIGHT</span></figure>
+          <p class="product-category">ACCESSORIES / ONE SIZE</p><h3>Wayfinder woven bag</h3><div class="product-price"><span>R590</span><span>ILLUSTRATIVE</span></div>
+          <div class="variants"><label>Size<select data-size required><option>One size</option></select></label><label>Colour<select data-colour><option>Natural</option><option>Warm mix</option></select></label></div>
+          <button class="add-button" type="button" data-add>Add to bag <span>＋</span></button>
+        </article>
+      </div>
+      <p id="shop-status" aria-live="polite" class="shop-status"></p>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-copy"><p class="eyebrow">A point of view / 02</p><h2>Clothes should<br>make room <em>for life.</em></h2><p>FORM / 01 is imagined as a small independent label for people who like considered design, easy layers and pieces that earn their place in the week.</p><p>There is no scarcity timer, invented sustainability claim or made-up customer story here. Just a sample collection and a demonstration of the shopping journey.</p><a href="#collection" class="text-link">Back to the edit <span>↗</span></a></div>
+      <figure><img src="assets/autumn-campaign.jpg" alt="Portrait used as an illustrative fashion campaign reference"><figcaption>CAMPAIGN STUDY / SOFT STRUCTURE</figcaption></figure>
+      <span class="story-side" aria-hidden="true">F / 01</span>
+    </section>
+
+    <section class="details" id="info">
+      <div class="details-heading"><p class="eyebrow">Useful before you choose / 03</p><h2>Good fit.<br><em>Clear details.</em></h2><p>Sample sizing, delivery and return information for a fictional store. No order, payment or shipment is processed.</p></div>
+      <div class="details-list">
+        <details><summary>Size guide</summary><p>XS: chest 84–90 cm · S: 90–96 cm · M: 96–102 cm · L: 102–110 cm · XL: 110–118 cm. These sample measurements are illustrative; use a real brand’s current garment measurements before buying.</p></details>
+        <details><summary>Shipping and collection</summary><p>A real store would show delivery areas, fees and dispatch timing before checkout. This concept does not book delivery or reserve stock.</p></details>
+        <details><summary>Returns and exchanges</summary><p>Returns depend on a real retailer’s published policy and applicable consumer law. This demo does not take orders or accept returns.</p></details>
+        <details><summary>Care notes</summary><p>Follow the garment label. Sample fabrics and product construction shown here are fictional examples, not verified product specifications.</p></details>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><a class="wordmark" href="#home">FORM<span>/</span>01</a><p>An independent fashion shop concept by VENDERS.CO.</p><div><a href="../../designs.html">Portfolio ↗</a><a href="../../contact.html">Build a site like this ↗</a></div></footer>
+
+  <dialog id="bag-dialog" aria-labelledby="bag-title">
+    <div class="dialog-head"><div><p class="eyebrow">YOUR EDIT / DEMO BAG</p><h2 id="bag-title">The bag.</h2></div><button type="button" data-close-bag aria-label="Close shopping bag">×</button></div>
+    <p class="demo-notice">Demonstration only. No payment details are requested; no order or stock reservation is made.</p>
+    <div id="bag-lines" class="bag-lines"></div>
+    <p id="empty-bag" class="empty-bag">Your bag is waiting for a first piece.</p>
+    <div class="bag-total"><span>Sample subtotal</span><strong id="bag-total">R0</strong></div>
+    <a class="button checkout-link" href="#checkout">Continue to demo checkout <span>↘</span></a>
+    <section class="checkout" id="checkout">
+      <p class="eyebrow">DEMONSTRATION CHECKOUT</p><h3>Where should the sample go?</h3>
+      <form id="checkout-form">
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Delivery address<input name="address" autocomplete="street-address" required></label>
+        <label class="check-label"><input type="checkbox" required> I understand this is a demo and no order or payment will be made.</label>
+        <button class="button" type="submit">Review sample order <span>↗</span></button>
+      </form>
+      <p id="checkout-status" class="checkout-status" aria-live="polite"></p>
+    </section>
+  </dialog>
+</body>
+</html>

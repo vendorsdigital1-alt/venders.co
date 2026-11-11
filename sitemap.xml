@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace https://YOUR-DOMAIN.example with the actual canonical HTTPS domain before deployment. -->
+  <url><loc>https://YOUR-DOMAIN.example/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/services.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/designs.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/pricing.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/about.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/contact.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/privacy.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/terms.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/demos/glow-studio/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/demos/karoo-kitchen/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/demos/veld-build/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/demos/wizard-motors/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/demos/form-01/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/demos/haven-property-group/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/demos/kalahari-house/</loc></url>
+</urlset>

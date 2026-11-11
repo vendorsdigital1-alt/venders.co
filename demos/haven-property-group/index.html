@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Haven Property Group is a fictional real-estate website concept with sample listings and viewing enquiries.">
+  <title>Haven Property Group — Find Your Place</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="notice-bar">FICTIONAL PROPERTY COLLECTION · SAMPLE LISTINGS ONLY <a href="../../designs.html">VENDERS.CO ↗</a></div>
+  <header class="header">
+    <a class="brand" href="#home"><span>HAVEN</span><small>PROPERTY GROUP</small></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">+</span></button>
+    <nav id="site-nav" aria-label="Main navigation"><a href="#homes">Find a home</a><a href="#developments">Developments</a><a href="#about">Our approach</a><a class="nav-button" href="#viewing">Arrange a viewing ↗</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-image"><img src="assets/villa.webp" alt="Contemporary house exterior used as an architectural reference for this fictional property concept"><span>ARCHITECTURE / A SENSE OF PLACE</span></div>
+      <div class="hero-copy"><p class="eyebrow">PROPERTY, WITH PERSPECTIVE / SOUTH AFRICA</p><h1>Room to<br><em>belong.</em></h1><p>Explore a considered sample of homes, neighbourhoods and new developments. Find the details that help a place feel possible.</p><a href="#homes" class="button">Explore sample properties <span>↘</span></a><small>All listings and availability are fictional.</small></div>
+      <div class="hero-caption">A BETTER SEARCH BEGINS WITH A BETTER QUESTION.</div>
+    </section>
+
+    <section class="search-section" id="homes">
+      <div class="search-heading"><div><p class="eyebrow">Property search / 01</p><h2>Start with<br><em>what feels right.</em></h2></div><p>Use the filters to explore the sample collection. Prices, locations, addresses, agents and availability are illustrative only.</p></div>
+      <form id="property-filters" class="search-form" aria-label="Filter sample properties">
+        <label>Search area or name<input type="search" name="search" placeholder="Try “gardens”"></label>
+        <label>Looking to<select name="status"><option value="">Buy or rent</option><option value="buy">Buy</option><option value="rent">Rent</option></select></label>
+        <label>Property type<select name="type"><option value="">Any type</option><option value="house">House</option><option value="apartment">Apartment</option><option value="townhouse">Townhouse</option></select></label>
+        <label>Bedrooms<select name="beds"><option value="">Any</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option></select></label>
+        <button class="button" type="submit">Search homes <span>↗</span></button>
+      </form>
+      <div class="results-heading"><span id="results-count" aria-live="polite">3 sample properties</span><span>FICTIONAL / NOT FOR SALE</span></div>
+      <div class="property-grid" id="property-grid">
+        <article class="property" data-name="oak and stone" data-location="constantia cape town" data-status="buy" data-type="house" data-beds="4" data-price="4850000" data-image="assets/villa.webp" data-description="A fictional family home with a quiet garden edge, open living spaces and room to gather.">
+          <button type="button" class="property-photo" data-open-property aria-label="View Oak & Stone House details"><img src="assets/villa.webp" alt="Modern villa exterior image used as an illustrative property reference"><span>ILLUSTRATIVE IMAGE</span><b>SALE / CONCEPT</b></button>
+          <div class="property-location">CONSTANTIA · CAPE TOWN <span>HOUSE</span></div><h3>Oak &amp; Stone House</h3><p>4 bedrooms · 3 bathrooms · 2 garages</p><div class="property-foot"><strong>R4,850,000</strong><button type="button" data-open-property>View home ↗</button></div>
+        </article>
+        <article class="property" data-name="the long room" data-location="gardens cape town" data-status="rent" data-type="apartment" data-beds="2" data-price="18500" data-image="assets/home-interior-3.webp" data-description="A fictional two-bedroom apartment concept with generous light and flexible living space.">
+          <button type="button" class="property-photo" data-open-property aria-label="View The Long Room details"><img src="assets/home-interior-3.webp" alt="Bright open interior used as an illustrative apartment reference"><span>ILLUSTRATIVE IMAGE</span><b>RENT / CONCEPT</b></button>
+          <div class="property-location">GARDENS · CAPE TOWN <span>APARTMENT</span></div><h3>The Long Room</h3><p>2 bedrooms · 1 bathroom · 1 parking</p><div class="property-foot"><strong>R18,500 / month</strong><button type="button" data-open-property>View home ↗</button></div>
+        </article>
+        <article class="property" data-name="claremont courtyard" data-location="claremont cape town" data-status="buy" data-type="townhouse" data-beds="3" data-price="3290000" data-image="assets/home-interior-1.webp" data-description="A fictional three-bedroom townhouse with a calm courtyard and easy everyday flow.">
+          <button type="button" class="property-photo" data-open-property aria-label="View Claremont Courtyard details"><img src="assets/home-interior-1.webp" alt="Bathroom interior used as a visual reference for sample residential listing details"><span>ILLUSTRATIVE IMAGE</span><b>SALE / CONCEPT</b></button>
+          <div class="property-location">CLAREMONT · CAPE TOWN <span>TOWNHOUSE</span></div><h3>Claremont Courtyard</h3><p>3 bedrooms · 2 bathrooms · 1 garage</p><div class="property-foot"><strong>R3,290,000</strong><button type="button" data-open-property>View home ↗</button></div>
+        </article>
+      </div>
+      <p id="empty-state" class="empty-state" hidden>No sample properties match that search. Adjust a filter to see more.</p>
+    </section>
+
+    <section class="development" id="developments">
+      <div class="development-copy"><p class="eyebrow">A place taking shape / 02</p><h2>Room to grow<br><em>into the next.</em></h2><p>New-build and off-plan projects benefit from clear plans, timelines and a careful read of the details. This fictional development preview is not a real launch or investment offer.</p><a href="#viewing" class="text-link">Ask for the sample information pack <span>↗</span></a></div>
+      <figure><img src="assets/home-interior-2.webp" alt="Home interior reference photo suggesting a new-build finish concept"><figcaption>PROJECT STUDY / ILLUSTRATIVE INTERIOR</figcaption></figure>
+    </section>
+
+    <section class="approach" id="about">
+      <p class="eyebrow">A considered way to search / 03</p><div class="approach-grid"><h2>Good decisions<br>need <em>good context.</em></h2><div><p>Haven Property Group is a fictional agency concept. The experience separates finding a place, understanding its details and making an enquiry, without overstating what a listing can promise.</p><p>Real property availability, pricing, legal details, agent credentials and viewing arrangements must be confirmed with a real agency.</p><a class="text-link" href="#viewing">Talk through a viewing <span>↘</span></a></div></div>
+    </section>
+
+    <section class="viewing" id="viewing">
+      <div><p class="eyebrow">The next step / 04</p><h2>Take a closer<br><em>look.</em></h2><p>Request a sample viewing conversation. This form validates in your browser; it does not contact an agent or confirm an appointment.</p><div class="contact-note"><strong>HAVEN PROPERTY GROUP</strong><span>Fictional agency concept · Cape Town</span><span>Mon—Fri 09:00—17:00 (illustrative)</span></div></div>
+      <form id="viewing-form">
+        <label>Property<select name="property" required><option value="">Choose a sample listing</option><option>Oak &amp; Stone House</option><option>The Long Room</option><option>Claremont Courtyard</option><option>New-build concept</option></select></label>
+        <div class="field-row"><label>Your name<input name="name" autocomplete="name" required></label><label>Email<input name="email" type="email" autocomplete="email" required></label></div>
+        <label>Preferred viewing date<input name="date" type="date" required></label>
+        <label>Anything you’d like to ask?<textarea name="message" rows="3"></textarea></label>
+        <button class="button" type="submit">Prepare viewing request <span>↗</span></button><p id="viewing-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span>HAVEN</span><small>PROPERTY GROUP</small></a><p>Fictional real-estate concept · Sample listings only.</p><div><a href="../../designs.html">Back to VENDERS.CO ↗</a><a href="../../contact.html">Build a site like this ↗</a></div></footer>
+
+  <dialog id="property-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" aria-label="Close property details">×</button>
+    <div class="dialog-photo"><button class="gallery-arrow previous" type="button" aria-label="Previous reference image">←</button><img id="dialog-image" src="" alt=""><button class="gallery-arrow next" type="button" aria-label="Next reference image">→</button><span id="gallery-count"></span></div>
+    <div class="dialog-copy"><p class="eyebrow">SAMPLE LISTING / IMAGE REFERENCES</p><h2 id="dialog-title"></h2><strong id="dialog-price"></strong><p id="dialog-description"></p><p>Address, price, availability and listing details are fictional. The gallery contains architectural reference images, not photographs of this specific property.</p><a class="button" href="#viewing" id="dialog-viewing">Request a sample viewing ↘</a></div>
+  </dialog>
+</body>
+</html>
